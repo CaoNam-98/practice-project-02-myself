@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1ebfc1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background: yellow;
+  height: 2000px;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 186px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 16px;
+  line-height: 68px;
+  text-align: center;
+  background: var(--primary-color);
+  border-radius: 14px;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0d1111;
+}
+
+.heading.lv1 {
+  font-size: 6.2rem;
+  line-height: 1.16;
+}
+
+.heading.lv2 {
+  font-size: 4.2rem;
+  line-height: 1.33;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+/* Header */
+.header {
+  background: #ffffff;
+}
+
+.header.fixed {
+  position: sticky;
+  top: -28px;
+  z-index: 1;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+
+.nav {
+  margin-left: 235px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 39px;
+}
+
+.nav a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.nav a:hover {
+  font-weight: 600;
+}
+
+.header .actions {
+  margin-left: auto;
+}
+
+.header .sign-in-btn {
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.header .sign-up-btn {
+  display: inline-block;
+  margin-left: 24px;
+  min-width: 108px;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 15px 0;
+}
