@@ -13,8 +13,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-  background: yellow;
-  height: 2000px;
 }
 
 /* Common */
@@ -339,4 +337,243 @@ a {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+}
+
+/* ============ Feature ============== */
+.feature {
+  padding: 130px 0 0;
+}
+
+.feature .feature-label {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.feature .feature-title {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+  width: 577px;
+}
+
+.feature .feature-desc {
+  margin-top: 18px;
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.feature .feature-group {
+  margin-top: 80px;
+  display: flex;
+  gap: 200px;
+}
+
+.feature .feature-item .feature-item__title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature .feature-item .feature-item__desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69; /* 168.75% */
+}
+
+.feature .feature-item .feature-item__desc:nth-of-type(0) {
+  width: 168px;
+}
+
+.feature .feature-item .feature-item__desc:nth-of-type(1),
+.feature .feature-item .feature-item__desc:nth-of-type(2) {
+  width: 223px;
+}
+
+/* ============ Popular ============== */
+.popular {
+  padding: 130px 0 0;
+}
+
+.popular .popular-label {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.popular .popular-title {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.popular .popular-row {
+  margin-top: 19px;
+}
+
+.popular .popular-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular .popular-desc {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+
+.popular .link {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.popular .course-group {
+  margin-top: 79px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 47px;
+}
+
+.popular .course-item {
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .course-item .course-item__img {
+  width: 100%;
+  height: 393px;
+  border-radius: 8px;
+  opacity: 0.75;
+  background: #d0efed;
+}
+
+.popular .course-item__info {
+  width: 325px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 332px;
+  left: 17px;
+  padding: 18px 25px 29px;
+}
+
+.popular .course-item {
+  position: relative;
+}
+
+.popular .course-item__title {
+  color: #0d1111;
+
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.popular .price-block {
+  display: flex;
+}
+
+.popular .price-block__title {
+  margin-top: 16px;
+}
+
+.popular .price-block__title {
+  color: #767e7e;
+  font-size: 1.6;
+  font-weight: 400;
+}
+
+.popular .price-block__fee {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.popular .course-item__desc {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popular .course-item__detail-info {
+  margin-top: 18px;
+  display: flex;
+  gap: 15px;
+}
+
+.popular .course-item__class,
+.popular .course-item__duration {
+  position: relative;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  left: 5px;
+}
+
+.popular .course-item__class::before,
+.popular .course-item__duration::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: -5px;
+  width: 6px;
+  height: 6px;
+  background: #1ebfc1;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+}
+
+.course-item__class-value,
+.course-item__duration-value {
+  position: relative;
+  margin-left: 10px;
+}
+
+/* ============== Number =============== */
+.number {
+  padding: 292px 0 264px;
+}
+
+.number .number-group {
+  width: 862px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 180px;
+  margin: auto;
+}
+
+.number .number-item__qty {
+  display: inline-block;
+    width: 100%;
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.number .number-item__desc {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
 }
