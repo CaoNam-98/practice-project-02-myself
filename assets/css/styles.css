@@ -562,7 +562,7 @@ a {
 
 .number .number-item__qty {
   display: inline-block;
-    width: 100%;
+  width: 100%;
   color: #0d1111;
   text-align: center;
   font-size: 6.2rem;
@@ -577,3 +577,118 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+
+/* ============= Feedback ============== */
+.feedback .body {
+  display: flex;
+}
+
+.feedback .quotation-mark {
+  width: 36px;
+  height: 29px;
+  background: #070707;
+}
+
+.feedback .feedback-desc {
+  margin-top: 27px;
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+}
+
+.feedback .feedback-label {
+  display: inline-block;
+  margin-top: 33px;
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feedback .feedback-label span {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feedback .feedback-label::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  margin-right: 5px;
+  position: relative;
+  top: -5px;
+}
+
+.feedback .feedback-cta__group {
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 130px;
+}
+
+.feedback .feedback-arrow__left,
+.feedback .feedback-arrow__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2AC9BF;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.feedback .feedback-img__group {
+  width: 679px;
+  margin-left: auto;
+  position: relative;
+}
+
+.feeback .feedback-img__item {
+  object-fit: cover;
+}
+
+.feedback .small {
+  width: 92px;
+  height: 92px;
+  overflow: hidden;
+}
+
+.feedback .feedback-img__item-1 {
+  position: absolute;
+  left: 80px;
+  top: 0;
+  background: #1EBFC1;
+  border-radius: 50%;
+}
+
+.feedback .feedback-img__item-2 {
+  position: absolute;
+  left: 505px;
+  top: 37px;
+  background: #BF83FF;
+  border-radius: 50%;
+}
+
+.feedback .feedback-img__item-3 {
+  position: absolute;
+  top: 360px;
+  right: 32px;
+  background: #B1DFDC;
+  border-radius: 50%;
+}
+
+.feedback .feedback-img__item-6 {
+  position: absolute;
+  left: 273px;
+  top: 107px;
+  background: #FF8282;
+  border-radius: 50%;
+}
+
