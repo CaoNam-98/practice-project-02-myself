@@ -399,7 +399,7 @@ a {
 
 /* ============ Popular ============== */
 .popular {
-  padding: 65px 0 calc(132px + 61px) 0;
+  padding: 65px 0 193px 0;
 }
 
 .popular .popular-label {
@@ -478,9 +478,9 @@ a {
 
 .popular .course-item__title {
   color: #0d1111;
-
   font-size: 2.2rem;
   font-weight: 700;
+  line-height: normal;
 }
 
 .popular .price-block {
@@ -688,7 +688,7 @@ a {
 
 .feedback .feedback-img__item-1 {
   position: absolute;
-  left: calc(66px + 78px);
+  left: 144px;
   top: 0;
   background: var(--primary-color);
   border-radius: 50%;
@@ -696,7 +696,7 @@ a {
 
 .feedback .feedback-img__item-2 {
   position: absolute;
-  left: calc(491px + 78px);
+  left: 569px;
   top: 19px;
   background: #bf83ff;
   border-radius: 50%;
@@ -704,7 +704,7 @@ a {
 
 .feedback .feedback-img__item-3 {
   position: absolute;
-  top: calc(245px + 110px);
+  top: 355px;
   right: 32px;
   background: #b1dfdc;
   border-radius: 50%;
@@ -712,15 +712,15 @@ a {
 
 .feedback-img__item-4 {
   position: absolute;
-  top: calc(311px + 92px);
-  left: calc(134px + 78px);
+  top: 403px;
+  left: 212px;
   background: #b1dfdc;
   border-radius: 50%;
 }
 
 .feedback-img__item-5 {
   position: absolute;
-  top: calc(166px + 92px);
+  top: 258px;
   left: 0px;
   background: #b1dfdc;
   border-radius: 50%;
